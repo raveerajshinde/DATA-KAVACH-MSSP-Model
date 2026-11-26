@@ -1,0 +1,183 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DataKavach.Api/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.WindowsServices": "10.0.15",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.19.2",
+          "System.Data.Odbc": "10.0.15"
+        },
+        "runtime": {
+          "DataKavach.Api.dll": {}
+        }
+      },
+      "Microsoft.Bcl.Cryptography/10.0.15": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Bcl.Cryptography.dll": {
+            "assemblyVersion": "10.0.0.15",
+            "fileVersion": "10.0.1526.53008"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting.WindowsServices/10.0.15": {
+        "dependencies": {
+          "System.ServiceProcess.ServiceController": "10.0.15"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Hosting.WindowsServices.dll": {
+            "assemblyVersion": "10.0.0.15",
+            "fileVersion": "10.0.1526.53008"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/8.19.2": {
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.1.26313"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.19.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.1.26313"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.19.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.1.26313"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.19.2": {
+        "dependencies": {
+          "Microsoft.Bcl.Cryptography": "10.0.15",
+          "Microsoft.IdentityModel.Logging": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.1.26313"
+          }
+        }
+      },
+      "System.Data.Odbc/10.0.15": {
+        "runtime": {
+          "lib/net10.0/System.Data.Odbc.dll": {
+            "assemblyVersion": "10.0.0.15",
+            "fileVersion": "10.0.1526.53008"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net10.0/System.Data.Odbc.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.15",
+            "fileVersion": "10.0.1526.53008"
+          },
+          "runtimes/win/lib/net10.0/System.Data.Odbc.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.15",
+            "fileVersion": "10.0.1526.53008"
+          }
+        }
+      },
+      "System.ServiceProcess.ServiceController/10.0.15": {
+        "runtime": {
+          "lib/net10.0/System.ServiceProcess.ServiceController.dll": {
+            "assemblyVersion": "10.0.0.15",
+            "fileVersion": "10.0.1526.53008"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.ServiceProcess.ServiceController.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.15",
+            "fileVersion": "10.0.1526.53008"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataKavach.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bcl.Cryptography/10.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c0844LrvA0xRBlJzUfDQ2keAciH3ItfZ5vKANaRhtRvtGlWzih6ZQR08xr1mXZlHHl+Ne8E53CNJj48HEp16Xg==",
+      "path": "microsoft.bcl.cryptography/10.0.15",
+      "hashPath": "microsoft.bcl.cryptography.10.0.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.WindowsServices/10.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-97sgEmKS/AV8Dh87m/zb1NlKzc4Hf0beDT0osOxERIIvoZ6Ru3BJarNKPJYeF9Zmd6ErQqXtC4ab7fLWhP2tcA==",
+      "path": "microsoft.extensions.hosting.windowsservices/10.0.15",
+      "hashPath": "microsoft.extensions.hosting.windowsservices.10.0.15.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xIQE3dlWBFymPMrdVkCgycajGGDwHaSY3eA6Jyr5gbYFNwB8SXIRDvmZQRqj0cePQ8o/8XOAkvMPLj1upS4jWg==",
+      "path": "microsoft.identitymodel.abstractions/8.19.2",
+      "hashPath": "microsoft.identitymodel.abstractions.8.19.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5VqYo9xHNhGuLWyUXxDwfbi/lrpIRneqXmcdl8Z/wR9tzm7EScAQSLoTAxnesV09wo+Vngxe+IL2l7aTd7SBow==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.19.2",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.19.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Ey5L7tPzjCGPwV1pm0ihLfm7CnhcKSKI0DSRdJQPTuv2/cCaBuXPWziLQxLgu2IcMdL79GhIsemjf79upm7eg==",
+      "path": "microsoft.identitymodel.logging/8.19.2",
+      "hashPath": "microsoft.identitymodel.logging.8.19.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rv34D0b4mbz7g6QHpBxBPtC2MH3Ruo/1XWFht4e4kLVv+Si7FYhT9m0/bPBRhcBczWBTlNGlbyrQjCnzLlKNTw==",
+      "path": "microsoft.identitymodel.tokens/8.19.2",
+      "hashPath": "microsoft.identitymodel.tokens.8.19.2.nupkg.sha512"
+    },
+    "System.Data.Odbc/10.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sC+mysk1IyAJkgArO3KFBygTBL6ZbqHSIhnk/SRr3h4XbW3ukBZ3Wv/m3nGfbhpG8Fi5IduyIpHYGMhIehcvRA==",
+      "path": "system.data.odbc/10.0.15",
+      "hashPath": "system.data.odbc.10.0.15.nupkg.sha512"
+    },
+    "System.ServiceProcess.ServiceController/10.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NzfOgFkUu5Zjn+LY5xGMFaXb35gz0mMe+fAR5kS2EvkS1vBoaaovvrCIIiOfKlBBpW/kkFwHIfth2oLdS50vqQ==",
+      "path": "system.serviceprocess.servicecontroller/10.0.15",
+      "hashPath": "system.serviceprocess.servicecontroller.10.0.15.nupkg.sha512"
+    }
+  }
+}
